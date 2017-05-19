@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KP_SPZ_Security_Program
+namespace kp_spz_klass
 {
     [Serializable]
     class HardWareInfo
