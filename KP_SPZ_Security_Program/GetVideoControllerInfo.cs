@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Management;
 
-namespace kp_spz_klass
+namespace KP_SPZ_Security_Program
 {
     class GetVideoControllerInfo: IDeviceInfo
     {

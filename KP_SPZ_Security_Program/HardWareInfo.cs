@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kp_spz_klass
+namespace KP_SPZ_Security_Program
 {
     [Serializable]
     class HardWareInfo
@@ -21,14 +21,26 @@ namespace kp_spz_klass
             string ProcessorID,
             string VideoControllerId,
             string BaseGoardSerialNumber,
-            DateTime EndDate)
+            DateTime endDate)
         {
             this.HDDserialNumber = HDDserialNumber;
             this.ProcessorName = ProcessorName;
             this.ProcessorID = ProcessorID;
             this.VideoControllerId = VideoControllerId;
             this.BaseGoardSerialNumber = BaseGoardSerialNumber;
-            this.EndData = EndData;
+            this.EndData = endDate;
+        }
+        public HardWareInfo(string HDDserialNumber,
+            string ProcessorName,
+            string ProcessorID,
+            string VideoControllerId,
+            string BaseGoardSerialNumber)
+        {
+            this.HDDserialNumber = HDDserialNumber;
+            this.ProcessorName = ProcessorName;
+            this.ProcessorID = ProcessorID;
+            this.VideoControllerId = VideoControllerId;
+            this.BaseGoardSerialNumber = BaseGoardSerialNumber;
         }
     }
 }
